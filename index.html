@@ -11,6 +11,7 @@
     <header id="top">
       <h1>Prework Study Guide</h1>
       <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
+      <h2>✨ Open the Console to See What's Happening ✨</h2>
     </header>
     <main>
       <section class="card" id="html-section">
@@ -18,7 +19,7 @@
         <ul>
           <li>The head element contains information about the webpage.</li>
           <li>The body element represents the visible content shown to the user.</li>
-          <li>'ul' stands for unordered list</li>
+          <li>'ul' -  stands for unordered list</li>
           <li>An element is a type of content on a webpage, commonly used types include text elements, image elements, header elements and list elements.</li>
           <li>Declarations are not case-sensitive; HTML elements are case-sensitive.</li>
           <li>HTML attributes are always defined in the beginning element, never the closing element.</li>
@@ -28,6 +29,7 @@
           <li>The link element connects an external resource to the HTML document.</li>
           <li>The meta element defines metadata such as the character set, description, keywords, author, and viewport. Meta tags always go inside the head element, and are typically used to specify character set, page description, keywords, author of the document, and viewport settings. Metadata will not be displayed on the page, but is machine parsable. Metadata is used by browsers (how to display content or reload page), search engines (keywords), and other web services. There is a method to let web designers take control over the viewport (the user's visible area of a web page, it will be smaller on a phone than a desktop), through the meta tag.</li>
           <li>The script element embeds client-side scripts in the HTML document.</li>
+          <li><a href="https://web.stanford.edu/group/csp/cs21/htmlcheatsheet.pdf" target="_blank">Handy HTML cheatsheet</a></li>
         </ul>
       </section>
       <section class="card" id="css-section">
@@ -36,29 +38,58 @@
           <li>A margin indicates how much space we want around the outside of an element.</li>
           <li>A padding indicates how much space we want around the content inside an element.</li>
           <li>CSS box model: every HTML element is essentially a box</li>
-          <li></li>
+          <li>Inline CSS - style an element directly in the HTML file, useful for quick and permanent changes but each inline style has to be edited individually when you make changes, so it's much slower to make multiple edits.</li>
+          <li>Internal style sheet - Allows yuo to configure CSS classes and ID's, which identify elements to style multiple elements at once</li>
+          <li>External CSS Style Sheet - Most common. Let's you keep all of your CSS rules in a separate file making design changes easier</li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">Extra CSS info</a></li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model" target="_blank">Explanation of the box model</a></li>
+          <li>Separation of concerns is a widely used term in web development and refers to separating code into different files based on use. It is one of the key design principles that we practice in the boot camp. Separation of concerns is based on the idea that each section of code should have its own responsibility</li>
+          <li>Do Not Repeat Yourself (DRY) is a coding principle that encourages developers to reuse or share pieces of code in order to reduce the number of lines of code that need to be written or maintained. DRY can greatly reduce the overall size and complexity of a codebase.</li>
+          <li>Assinging colors in CSS can be done with semantic references (white, blue black, etc.) or you can use hex codes.</li>
         </ul>
       </section>
       <section class="card" id="git-section">
         <h2>Git</h2>
         <ul>
-          <li>The word 'git' is used in the terminal to identify all git commands</li>
+          <li>The word '<FONT COLOR="RED">git</FONT>' is used in the terminal to identify all git commands</li>
+          <li><a href="https://docs.github.com/en/authentication/connecting-to-github-with-ssh/checking-for-existing-ssh-keys" target="_blank">Checking for existing SSH keys</a></li>
           <li>Use the 'cd command' to navigate to the correct directory</li>
-          <li>typing 'code .' will open up VScode</li>
-          <li>'git status' checks which brand we're currently on and the status of it</li>
-          <li>'git checkout -b feature/enter-name-here' is used to create a new branch off of the main branch</li>
-          <li>'git add' will add our changes and 'git add -A' will add all of our chages</li>
-          <li>'git commit -m "descriptive message" will commit our staged content as a new commit snapshot. The '-m' is what associates a message with the commit</li>
-          <li>'git pull origin main' starts the pull from the terminal and you can follow it up on github</li>
-          <li>'git push origin feature/enter-feature-name-here' will push the local changes we made on a branch to github</li>
-          <li>'git chekout main' switches to the main branch of the project</li>
-          <li>'git pull origin main' pulls the most recent version of the main branch</li>
+          <li>typing '<FONT COLOR="RED">code .</FONT>' will open up VScode</li>
+          <li><a href="https://docs.github.com/en/get-started/using-github/github-flow" target="_blank">GitHub flow info</a></li>
+          <li><a href="https://education.github.com/git-cheat-sheet-education.pdf" target="_blank">Git command cheat sheet</a></li>
+          <li><a href="https://digital.gov/resources/an-introduction-github/" target="_blank">GitHub basics/into videos</a></li>
+          <li>'<FONT COLOR="RED">git status</FONT>' checks which brand we're currently on and the status of it</li>
+          <li>'<FONT COLOR="RED">git checkout -b feature/enter-name-here</FONT>' is used to create a new branch off of the main branch</li>
+          <li>'<FONT COLOR="RED">git add</FONT>' will add our changes and '<FONT COLOR="RED">git add -A</FONT>' will add all of our chages</li>
+          <li>'<FONT COLOR="RED">git commit -m "descriptive message"</FONT> will commit our staged content as a new commit snapshot. The '<FONT COLOR="RED">-m</FONT>' is what associates a message with the commit</li>
+          <li>'<FONT COLOR="RED">git pull origin main</FONT>' starts the pull from the terminal and you can follow it up on github</li>
+          <li>'<FONT COLOR="RED">git push origin feature/enter-feature-name-here</FONT>' will push the local changes we made on a branch to github</li>
+          <li>'<FONT COLOR="RED">git chekout main</FONT>' switches to the main branch of the project</li>
+          <li>'<FONT COLOR="RED">git pull origin main</FONT>' pulls the most recent version of the main branch</li>
         </ul>
       </section>
       <section class="card" id="javascript-section">
         <h2>Javascript</h2>
         <ul>
-          <li>Notes here</li>
+          <li>We define topics AFTER we tell the computer to log it in the console.</li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/console/log_static" target="_blank">More info on console: log()</a></li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures" target="_blank">JS data types and structures</a></li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics" target="_blank">JS Basics</a></li>
+          <li><a href="https://javascript30.com/" target="_blank">JS30 Projects site</a></li>
+          <li>Info on <a href="https://developer.mozilla.org/en-US/docs/Glossary/Truthy" target="_blank">Truthy</a>, <a href="https://developer.mozilla.org/en-US/docs/Glossary/Falsy" target="_blank">Falsy</a>, and <a href="https://developer.mozilla.org/en-US/docs/Glossary/Boolean" target="_blank">Boolean</a></li>
+          <li>The strict equality operator (===) checks to see if two values are equal, and returns a Boolean (only has values 'true and 'false') result 'true' if the values are equal and 'false' if the values are not equal.</li>
+          <li>Array - a group of related data; a single variable that is used to hold a group of data. Arrays are typically used to hold data that is related in some way.</li>
+          <li>Array ex. and descriptions: <FONT COLOR="RED"> const studentInfo = ["Lu", 54, true];</FONT><br>1. We use the command 'const' then add the variable name (studentInfo)<br>2. Inside the brackets: Strings need to be contained within quotation marks, #'s and boolean values do not</p></li>
+          <li>In JavaScript and many other programming languages, arrays are zero-indexed and sequential.</li>
+          <li>A for loop uses the predictable pattern of indices to perform a task on all the items in an array by allowing a single code block to be executed over and over.</li>
+          <li>With loops, array length is important because the for loop needs to know how many times the code will run until there are no items left in the array.</li>
+          <li>'<FONT COLOR="RED">let</FONT>' allows us to reassign the value of the variable over time. This is especially important in cases where we need to use the variable to store changing values, like when iterating over an array using a for loop.</li>
+          <li>'for' loop structure:<br>1.Keyword 'for'<br>2.Three-part conditional statement<br>3.Code block</li>
+          <li>Commenting out code makes it inactive without deleting it, just in case you need it later. To comment out multiple lines of JavaScript code, put /* before and */ after the block of code</li>
+          <li>To declare a function, we use the '<FONT COLOR="RED">function</FONT>'' keyword and then give our function a unique name followed by parentheses. Then we add curly brackets <FONT COLOR="RED">{}</FONT> that contain the code for the task we want to perform.</li>
+          <li><a href="https://javascript30.com/" target="_blank">MATH</a> namespace object info reference page</li> 
+          <li>A variable is a named container that allows us to store data in our code.</li>
+          <li>Control flow is the order in which a computer executes code in a script.</li>
         </ul>
       </section>
     </main>
@@ -66,5 +97,6 @@
     <footer>
       <p>I can code!</p>
     </footer>
+    <script src="./assets/script.js"></script>
   </body>
 </html>
