@@ -16,9 +16,9 @@ Scroll through the page to read infromation relating to HTML, CSS, Git, and Java
 
 A console panel should open either below or to the side of the webpage in the browser. There you will see a list of topics I learned from the prework along with a suggestion on which topic to study first.
 
-Hyperlinked text will be underlined. Click it to learn more about that particular topic. ![alt text](assets/images/hyperlink.png)
+Hyperlinked text will be underlined. Click it to learn more about that particular topic. ![alt text](assets/hyperlink.png)
 
-Words in red signify keywords or pieces of useful code. Both are followed by a brief definition explaining its use or meaning.![alt text](assets/images/redtext.png)
+Words in red signify keywords or pieces of useful code. Both are followed by a brief definition explaining its use or meaning.![alt text](assets/redtext.png)
 
 ## Credits
 
